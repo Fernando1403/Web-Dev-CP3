@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os elementos */
+  }
+  
+  .esquerda, .direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .esquerda h1{
+    color: #333333;
+    font-size: 60px;
+    margin-left: 70px;
+    max-width: 15ch;
+  }
+
+  .direita{
+    border-left: 2px solid #B9B7B7;
+    margin-top: 100px; 
+    padding-left: 100px;
+    font-size: 30px;
+    margin-right: 270px;
+    margin-bottom: 20px;
+  }
+  
+  .icons{
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+
+  .icons img{
+    margin-right: 30px;
+  }
+
+  label{
+    color: #333333;
+  }
+
+  input{
+    border-radius: 10px;
+    border-color: lightgray;
+    box-shadow: #333333 2px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  form label {
+    margin-bottom: 10px;
+  }
+
+  textarea{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  .buttonContato{
+    border-radius: 5px;
+    background-color: #6975E8;
+    color: white;
+    border: 0px;
+    height: 30px;
+    width: 200px;
+  }
